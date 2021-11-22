@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    margin:0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 4em;
+    color:white;
+    text-decoration: none;
+    text-align:center;
+}
+.main-header{
+    background-color: orangered;
+    background-size:cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+padding-bottom: 30px;
+text-align: center;
+}
+.subtitle{
+text-align: center
+}
+.content-section{
+    margin: 1em ;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.lakerampimg{
+    float: center;
+   height: 400px;
+   width: 800px;
+}
+.my-foto{
+    float: none;
+    height: 600px;
+    width: 500px;
+}
+.main-footer{
+    background-color: grey;
+    background-size:cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: white; 
+}
+.main-footer-container{
+    align-items: flex-start;
+}
+.main-footer-container ul{
+    flex-grow:  1;
+text-align: start;
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px
+}
